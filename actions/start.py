@@ -1,7 +1,7 @@
 import requests
 class KennyAction(Action):
 def run(self, url):
-response = req.get(url)
+response = requests.get(url)
 		print(response.status_code)
 print(response.url)
 if response:
