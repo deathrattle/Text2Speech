@@ -1,10 +1,10 @@
 import requests
 class KennyAction(Action):
 def run(self, url):
-response = requests.get(url)
+response= requests.get(url)
 		print(response.status_code)
 print(response.url)
 if response:
-    print('Success!')
+    print('Successful!')
 else:
-    print('An error has occurred.')
+    print('An error occurred.')
