@@ -6,8 +6,8 @@ class KennyAction (Action):
         response = requests.get( url )
         print ( response.status_code )
         print (response.url)
-    if (response==200):
-        print ( 'Successful!' )
-    else :
-        print ( 'An error occurred.' )
+        if (response==200):
+            print ( 'Successful!' )
+        else :
+            print ( 'An error occurred.' )
 
