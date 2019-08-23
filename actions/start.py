@@ -1,5 +1,5 @@
 import requests
-
+from st2common.runners.base_action import Action
 
 class KennyAction ( Action ) :
     def run(self, url) :
