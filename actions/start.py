@@ -9,7 +9,7 @@ class KennyAction (Action) :
     print ( response.url )
 
 
-    if (response==200)
+    if (response==200):
         print ( 'Successful!' )
     else :
         print ( 'An error occurred.' )
