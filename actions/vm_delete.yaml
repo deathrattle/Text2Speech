@@ -1,6 +1,6 @@
 ---
 name: delete_vm
-pack: azure_vm
+pack: kenny_pack
 runner_type: "python-script"
 description: action to delete virtual machine on cloud  
 enabled: true
