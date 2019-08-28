@@ -1,43 +1,43 @@
 ---
-name: delete12
-pack: vm12
+name: delete_vm
+pack: azure_vm
 runner_type: "python-script"
-description: To Delete a VM!
+description: action to delete virtual machine on cloud  
 enabled: true
-entry_point: demo1.py
+entry_point: vm_delete.py
 parameters:
-     SUBSCRIPTION_ID :
+     Subcription_id:
         type: string
-        description: subs_id
+        description: Enter Subscription Id
         required: true
         position: 0
-     GROUP_NAME :
+     Group_Name:
         type: string
-        description: group_name
+        description: Enter Group Name 
         required: true
         position: 1
-     LOCATION:
+     Location:
         type: string
-        description: location
+        description: Enter Location 
         required: true
         position: 2
-      VM_NAME :
+     VM_Name:
         type: string
-        description: vm_name
+        description: Enter VM Name 
         required: true
         position: 3
-     client_id :
+     Client_Id:
         type: string
-        description: CLIENT_ID
+        description: Enter Client Id
         required: true
         position: 4
-     secret :
+     Secret:
         type: string
-        description: SECRET_KEY
+        description: Enter Secret String 
         required: true
         position: 5
-     tenant :
+     Tenant_Id:
         type: string
-        description: TENANT
+        description: Enater Tenant id
         required: true
         position: 6
