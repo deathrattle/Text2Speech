@@ -1,5 +1,5 @@
 ---
-ref: azure_vm
+ref: kenny_pack
 name: Azure Virtual Machine 
 description: Pack to create ,start ,stop and delete VM on Azure
 keywords:
